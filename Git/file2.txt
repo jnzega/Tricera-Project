@@ -1,3 +1,0 @@
-Menambah file2.txt
-cek test untuk file 2
-menambah file 3 untuk push
