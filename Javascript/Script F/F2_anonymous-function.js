@@ -15,6 +15,8 @@ sambut("Hehe") // output: Hello Joshua
 // anonymous function juga dapat diletakan dalam sebuah
 // parameter
 
+// contoh 
+// *note: ini adalah penggunaan sebuah function sebagai value parameter
 function giveMeName(fungsi) {
     fungsi("Joshua")
 }
@@ -22,3 +24,5 @@ function giveMeName(fungsi) {
 giveMeName(function (name) {
     console.log(`anjay ${name}`)
 })
+
+// output: anjay Joshua
